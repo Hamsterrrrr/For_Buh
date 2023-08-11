@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 
 
 
-engine = create_engine("postgresql+psycopg2://postgres:b,hf20043004@localhost/database")
+engine = create_engine("postgresql+psycopg2://postgres:/database")
 Base = declarative_base()
 
 
